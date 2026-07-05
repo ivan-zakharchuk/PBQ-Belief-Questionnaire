@@ -1,11 +1,11 @@
 <% it.questions.forEach((q) => { -%>
-<div class="question grid gap-3 xl:grid-cols-[auto_minmax(0,1fr)_minmax(0,1fr)] xl:items-center xl:gap-4 bg-surface border border-border rounded-card px-[18px] py-4 mb-3 shadow-card has-[input:checked]:border-accent/60" data-id="<%= q.id %>" data-scale="<%= q.scale %>"<%~ q.borderline ? ' data-borderline="1"' : '' %>>
-  <div class="text-[0.8rem] text-text-muted font-semibold xl:self-center">#<%= q.id %></div>
-  <p class="m-0 text-base min-w-0"><%= q.text %></p>
-  <div class="grid grid-cols-5 gap-1.5 min-w-0" role="radiogroup" aria-label="<%= it.strings.scaleQuestion %> — #<%= q.id %>">
-<% it.ratingsDesc.forEach((r) => { -%>
-    <%~ include("rating-option", { rating: r, name: `q${q.id}` }) %>
-<% }) -%>
-  </div>
-</div>
+<%~ include("question-row", {
+  id: q.id,
+  text: q.text,
+  scale: q.scale,
+  borderline: q.borderline,
+  ratings: it.ratingsDesc,
+  name: `q${q.id}`,
+  ariaLabel: `${it.strings.scaleQuestion} — #${q.id}`
+}) %>
 <% }) -%>

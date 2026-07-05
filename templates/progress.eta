@@ -1,4 +1,4 @@
-<div class="flex justify-between text-[0.85rem] text-text-muted mb-2">
+<div class="flex justify-between text-base text-text-muted mt-4 mb-2">
   <span class="answered-count" data-tpl="<%= it.strings.progress.answered %>"><%= it.strings.progress.answered.replace('{answered}', 0).replace('{total}', 126) %></span>
 </div>
-<div class="progress-bar h-1.5 bg-surface-alt rounded-full overflow-hidden mb-5"><div class="h-full bg-accent transition-[width] duration-[250ms] ease-out" style="width:0%"></div></div>
+<div class="progress-bar h-2 bg-surface-alt border border-border overflow-hidden"><div class="h-full bg-accent transition-[width] duration-[250ms] ease-out" style="width:0%"></div></div>

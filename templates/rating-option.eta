@@ -1,7 +1,7 @@
-<label class="group flex flex-col items-center justify-center gap-1 py-2 px-1 border border-border rounded-lg bg-surface text-center<%~ it.readonly ? ' cursor-default' : ' cursor-pointer transition active:scale-[0.98] hover:bg-surface-alt has-[input:checked]:border-accent has-[input:checked]:text-accent' %>" title="<%= it.rating.label %>">
+<label class="group flex flex-col items-center justify-center gap-1 py-2 px-1 border border-border rounded-card bg-surface text-center<%~ it.readonly ? ' cursor-default' : ' cursor-pointer transition active:scale-[0.98] hover:bg-surface-alt has-[input:checked]:outline-2 has-[input:checked]:outline-offset-[-2px] has-[input:checked]:outline-accent has-[input:checked]:text-accent' %>" title="<%= it.rating.label %>">
   <input class="peer absolute opacity-0 pointer-events-none hidden" type="radio" name="<%= it.name %>" value="<%= it.rating.value %>" aria-label="<%= it.rating.label %>"<%~ it.readonly ? ' disabled' : '' %>>
   <span class="flex flex-col items-center gap-0.5 leading-tight<%~ !it.readonly ? ' peer-focus-visible:outline-2 peer-focus-visible:outline-focus peer-focus-visible:outline-offset-[3px] peer-focus-visible:rounded-md' : '' %>">
-    <span class="font-bold text-[1.05rem]"><%= it.rating.value %></span>
-    <span class="text-[0.72rem] text-text-muted leading-tight<%~ !it.readonly ? ' group-has-[input:checked]:text-accent' : '' %> max-[520px]:hidden"><%= it.rating.short %></span>
+    <span class="font-bold text-2xl"><%= it.rating.value %></span>
+    <span class="text-base text-text-muted leading-tight<%~ !it.readonly ? ' group-has-[input:checked]:text-accent' : '' %> max-[520px]:hidden"><%= it.rating.short %></span>
   </span>
 </label>

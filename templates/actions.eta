@@ -1,11 +1,11 @@
 <div class="validation text-danger mt-3 text-[0.9rem]" hidden data-tpl="<%= it.strings.validation.missingCount %>"></div>
 <div class="flex gap-2.5 mt-6 flex-wrap">
-  <button type="button" class="submit-btn px-[18px] py-2.5 rounded-lg border border-accent bg-accent text-accent-fg cursor-pointer transition hover:brightness-105 disabled:opacity-55 disabled:cursor-not-allowed"
+  <button type="button" class="submit-btn px-[18px] py-2.5 rounded-card border-2 border-accent bg-accent text-accent-fg font-bold cursor-pointer transition hover:brightness-105 disabled:opacity-55 disabled:cursor-not-allowed"
           hx-get="./locales/<%= it.lang %>/results-shell.html"
           hx-target="#view"
           hx-swap="innerHTML"
           hx-on::before:request="window.pbq.validate(event)"><%= it.strings.buttons.submit %></button>
-  <button type="button" class="restart-btn px-[18px] py-2.5 rounded-lg border border-border bg-surface text-text cursor-pointer transition hover:bg-surface-alt disabled:opacity-55 disabled:cursor-not-allowed"
+  <button type="button" class="restart-btn px-[18px] py-2.5 rounded-card border-2 border-border bg-surface text-text font-bold cursor-pointer transition hover:bg-surface-alt disabled:opacity-55 disabled:cursor-not-allowed"
           hx-get="./locales/<%= it.lang %>/questionnaire.html"
           hx-target="#questions"
           hx-swap="innerHTML"

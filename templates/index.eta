@@ -20,17 +20,19 @@
            hx-trigger="load, langchange from:body"
            hx-swap="innerHTML"></div>
 
-      <div id="legend-view"
-           data-hx-frag="legend.html"
-           hx-get="./locales/en/legend.html"
-           hx-trigger="load, langchange from:body"
-           hx-swap="innerHTML"></div>
+      <div class="sticky top-0 z-20 bg-bg pb-5">
+        <div id="legend-view"
+             data-hx-frag="legend.html"
+             hx-get="./locales/en/legend.html"
+             hx-trigger="load, langchange from:body"
+             hx-swap="innerHTML"></div>
 
-      <div id="progress-view"
-           data-hx-frag="progress.html"
-           hx-get="./locales/en/progress.html"
-           hx-trigger="load, langchange from:body"
-           hx-swap="innerHTML"></div>
+        <div id="progress-view"
+             data-hx-frag="progress.html"
+             hx-get="./locales/en/progress.html"
+             hx-trigger="load, langchange from:body"
+             hx-swap="innerHTML"></div>
+      </div>
 
       <div id="questions"
            data-hx-frag="questionnaire.html"

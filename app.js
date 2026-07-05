@@ -90,6 +90,8 @@
         }
       } else if (id === 'progress-view') {
         updateProgress();
+      } else if (id === 'legend-view') {
+        updateScrollTopButtons();
       } else if (id === 'header-view') {
         const sel = document.getElementById('lang-select');
         if (sel) sel.value = state.lang;
@@ -97,6 +99,9 @@
         window.pbq.renderResults();
       }
     });
+
+  window.addEventListener('scroll', updateScrollTopButtons, { passive: true });
+  updateScrollTopButtons();
 
   function restoreAnswers() {
     for (const [id, v] of Object.entries(state.answers)) {
@@ -146,6 +151,13 @@
       el.hidden = true;
       el.style.display = 'none';
     }
+  }
+
+  function updateScrollTopButtons() {
+    const show = window.scrollY > 240;
+    document.querySelectorAll('.scroll-top-button').forEach((button) => {
+      button.hidden = !show;
+    });
   }
 
   // ---- Public API used by hx-on:* attributes in the pre-built fragments ----
@@ -292,6 +304,10 @@
       a.download = 'pbq-results.json';
       a.click();
       URL.revokeObjectURL(url);
+    },
+
+    scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
 

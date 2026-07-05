@@ -8,12 +8,19 @@
     "title": "PBQ — Personality Belief Questionnaire",
     "subtitle": "Please read the statements below and rate HOW MUCH YOU BELIEVE EACH ONE. Try to judge how\nyou feel about each statement MOST OF THE TIME.",
     "attribution": "© 1995 Aaron T. Beck, M.D. and Judith S. Beck, Ph.D. This web version is a study/self-reflection aid; it is not a diagnostic instrument.",
-    "languageLabel": "Language"
+    "languageLabel": "Language",
+    "nameLabel": "Name",
+    "dateLabel": "Date"
   },
   "scaleQuestion": "How much do you believe it?",
   "scaleLegend": {
     "title": "Rating scale",
-    "instructions": "Choose the number that best matches how you feel about the statement most of the time."
+    "instructions": "Choose the number that best matches how you feel about the statement most of the time.",
+    "exampleTitle": "Example",
+    "example": "The world is a dangerous place.",
+    "exampleInstruction": "(Please circle)",
+    "responseHeading": "HOW MUCH DO YOU BELIEVE IT?",
+    "scrollToTop": "Scroll to top"
   },
   "ratings": [
     { "value": 0, "label": "I don't believe it at all", "short": "Not at all" },

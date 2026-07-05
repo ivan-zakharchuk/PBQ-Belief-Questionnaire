@@ -1,15 +1,24 @@
-<header class="flex items-start gap-4 justify-between mb-6 max-[520px]:flex-col">
-  <div>
-    <h1 class="text-2xl font-bold m-0 mb-1.5"><%= it.strings.app.title %></h1>
-    <p class="m-0 text-text-muted text-[0.95rem]"><%= it.strings.app.subtitle %></p>
-  </div><% if (it.langs.length > 1) { %>
-  <label class="flex items-center gap-1.5 text-[0.85rem] text-text-muted"><%= it.strings.app.languageLabel %>
-    <select id="lang-select" aria-label="<%= it.strings.app.languageLabel %>"
-            class="px-2 py-1 rounded-md border border-border bg-surface text-text"
-            onchange="window.pbq.setLang(this.value)">
+<header class="mb-6">
+  <div class="border-4 border-text bg-surface px-6 py-5 mb-5 grid items-center gap-4 sm:grid-cols-[auto_1fr]">
+    <h1 class="text-6xl sm:text-7xl font-bold leading-none m-0 tracking-normal">PBQ</h1>
+    <p class="m-0 text-2xl sm:text-3xl font-bold text-center">Belief Questionnaire</p>
+  </div>
+  <div class="grid gap-4 sm:grid-cols-[1fr_auto] text-xl font-bold mb-4">
+    <div class="flex items-end gap-1"><span><%= it.strings.app.nameLabel %></span><span class="border-b-2 border-border flex-1 min-w-24 h-5"></span></div>
+    <div class="flex items-end gap-1 sm:min-w-72"><span><%= it.strings.app.dateLabel %>:</span><span class="border-b-2 border-border flex-1 min-w-24 h-5"></span></div>
+  </div>
+  <div class="flex items-start gap-4 justify-between max-[520px]:flex-col">
+    <p class="m-0 text-xl font-bold max-w-5xl"><%= it.strings.app.subtitle %></p>
+<% if (it.langs.length > 1) { %>
+    <label class="flex items-center gap-1.5 text-[0.85rem] text-text-muted"><%= it.strings.app.languageLabel %>
+      <select id="lang-select" aria-label="<%= it.strings.app.languageLabel %>"
+              class="px-2 py-1 rounded-none border border-border bg-surface text-text"
+              onchange="window.pbq.setLang(this.value)">
 <% it.langs.forEach((l) => { -%>
-      <option value="<%= l.code %>"<%~ l.code === it.lang ? ' selected' : '' %>><%= l.name %></option>
+        <option value="<%= l.code %>"<%~ l.code === it.lang ? ' selected' : '' %>><%= l.name %></option>
 <% }) -%>
-    </select>
-  </label><% } %>
+      </select>
+    </label>
+<% } %>
+  </div>
 </header>
