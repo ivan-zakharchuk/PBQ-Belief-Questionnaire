@@ -6,7 +6,7 @@
   },
   "app": {
     "title": "PBQ — Personality Belief Questionnaire",
-    "subtitle": "Please read the statements below and rate how much you believe each one. Try to judge how you feel about each statement most of the time.",
+    "subtitle": "Please read the statements below and rate HOW MUCH YOU BELIEVE EACH ONE. Try to judge how\nyou feel about each statement MOST OF THE TIME.",
     "attribution": "© 1995 Aaron T. Beck, M.D. and Judith S. Beck, Ph.D. This web version is a study/self-reflection aid; it is not a diagnostic instrument.",
     "languageLabel": "Language"
   },
