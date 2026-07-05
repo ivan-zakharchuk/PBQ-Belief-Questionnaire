@@ -1,0 +1,9 @@
+<section class="bg-surface border border-border rounded-card px-4 py-3.5 mb-5 shadow-card">
+  <h2 class="m-0 mb-1.5 text-[0.95rem] text-text-muted font-semibold uppercase tracking-wider"><%= it.strings.scaleLegend.title %></h2>
+  <p class="m-0 text-[0.88rem] text-text-muted"><%= it.strings.scaleLegend.instructions %></p>
+  <div class="grid grid-cols-5 gap-1.5 text-[0.8rem] text-text-muted mt-2">
+<% it.ratingsDesc.forEach((r) => { -%>
+    <span class="flex flex-col items-center gap-0.5"><b class="text-text text-[0.95rem]"><%= r.value %></b><%= r.short %></span>
+<% }) -%>
+  </div>
+</section>

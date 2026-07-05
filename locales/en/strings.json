@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "language": "English",
+    "languageCode": "en",
+    "direction": "ltr"
+  },
+  "app": {
+    "title": "PBQ — Personality Belief Questionnaire",
+    "subtitle": "Please read the statements below and rate how much you believe each one. Try to judge how you feel about each statement most of the time.",
+    "attribution": "© 1995 Aaron T. Beck, M.D. and Judith S. Beck, Ph.D. This web version is a study/self-reflection aid; it is not a diagnostic instrument.",
+    "languageLabel": "Language"
+  },
+  "scaleQuestion": "How much do you believe it?",
+  "scaleLegend": {
+    "title": "Rating scale",
+    "instructions": "Choose the number that best matches how you feel about the statement most of the time."
+  },
+  "ratings": [
+    { "value": 0, "label": "I don't believe it at all", "short": "Not at all" },
+    { "value": 1, "label": "I believe it slightly", "short": "Slightly" },
+    { "value": 2, "label": "I believe it moderately", "short": "Moderately" },
+    { "value": 3, "label": "I believe it very much", "short": "Very much" },
+    { "value": 4, "label": "I believe it totally", "short": "Totally" }
+  ],
+  "buttons": {
+    "start": "Start",
+    "previous": "Previous",
+    "next": "Next",
+    "submit": "See results",
+    "restart": "Start over",
+    "downloadJson": "Download results (JSON)"
+  },
+  "progress": {
+    "label": "Question {current} of {total}",
+    "answered": "{answered} of {total} answered"
+  },
+  "validation": {
+    "answerAll": "Please answer every question before submitting.",
+    "missingCount": "{count} questions still need an answer."
+  },
+  "results": {
+    "title": "Your PBQ scale scores",
+    "intro": "Each scale sums 14 belief items (0–4 each) for a maximum of 56 per scale. The Borderline scale is a subset of items and shares them with other scales. Z-scores compare your raw score against a sample of 756 psychiatric outpatients — they are informational, not diagnostic.",
+    "headers": {
+      "scale": "Scale",
+      "rawScore": "Raw score",
+      "outOf": "of {max}",
+      "zScore": "Z-score",
+      "zRefPd": "Ref. (with PD)",
+      "zRefNoPd": "Ref. (no PD)"
+    },
+    "disclaimer": "This tool is intended for education and self-reflection. It does not diagnose a personality disorder. If any of these results resonate strongly or cause distress, please consult a licensed mental-health professional.",
+    "noData": "No data"
+  },
+  "scales": {
+    "avoidant": "Avoidant",
+    "dependent": "Dependent",
+    "passive_aggressive": "Passive-Aggressive",
+    "obsessive_compulsive": "Obsessive-Compulsive",
+    "antisocial": "Antisocial",
+    "narcissistic": "Narcissistic",
+    "histrionic": "Histrionic",
+    "schizoid": "Schizoid",
+    "paranoid": "Paranoid",
+    "borderline": "Borderline"
+  }
+}

@@ -1,0 +1,17 @@
+<% it.questions.forEach((q) => { -%>
+<div class="question bg-surface border border-border rounded-card px-[18px] py-4 mb-3 shadow-card has-[input:checked]:border-accent/60" data-id="<%= q.id %>" data-scale="<%= q.scale %>"<%~ q.borderline ? ' data-borderline="1"' : '' %>>
+  <div class="text-[0.8rem] text-text-muted font-semibold mb-1">#<%= q.id %></div>
+  <p class="m-0 mb-3 text-base"><%= q.text %></p>
+  <div class="grid grid-cols-5 gap-1.5" role="radiogroup" aria-label="<%= it.strings.scaleQuestion %> — #<%= q.id %>">
+<% it.ratingsDesc.forEach((r) => { -%>
+    <label class="group flex flex-col items-center justify-center gap-1 py-2 px-1 border border-border rounded-lg cursor-pointer bg-surface text-center transition active:scale-[0.98] hover:bg-surface-alt has-[input:checked]:bg-accent has-[input:checked]:border-accent has-[input:checked]:text-accent-fg" title="<%= r.label %>">
+      <input class="peer absolute opacity-0 pointer-events-none" type="radio" name="q<%= q.id %>" value="<%= r.value %>" aria-label="<%= r.label %>">
+      <span class="flex flex-col items-center gap-0.5 leading-tight peer-focus-visible:outline-2 peer-focus-visible:outline-focus peer-focus-visible:outline-offset-[3px] peer-focus-visible:rounded-md">
+        <span class="font-bold text-[1.05rem]"><%= r.value %></span>
+        <span class="text-[0.72rem] text-text-muted leading-tight group-has-[input:checked]:text-accent-fg/75 max-[520px]:hidden"><%= r.short %></span>
+      </span>
+    </label>
+<% }) -%>
+  </div>
+</div>
+<% }) -%>

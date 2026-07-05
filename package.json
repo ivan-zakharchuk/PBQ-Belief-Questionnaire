@@ -1,0 +1,21 @@
+{
+  "name": "pbq-belief-questionnaire",
+  "private": true,
+  "version": "0.2.0",
+  "packageManager": "pnpm@9.12.3",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "predev": "pnpm run build",
+    "dev": "sirv dist --port 5188 --dev --no-clear"
+  },
+  "dependencies": {
+    "htmx.org": "4.0.0-beta5",
+    "jquery": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.2",
+    "eta": "^4.6.0",
+    "sirv-cli": "^3.0.0",
+    "tailwindcss": "^4.3.2"
+  }
+}

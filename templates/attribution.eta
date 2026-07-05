@@ -1,0 +1,1 @@
+<p class="mt-8 text-text-muted text-[0.78rem] text-center"><%= it.strings.app.attribution %></p>

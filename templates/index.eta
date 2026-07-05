@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personality Belief Questionnaire (PBQ) — a self-reflection tool based on the 126-item instrument by Beck & Beck (1991)." />
+    <title>PBQ — Personality Belief Questionnaire</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-bg text-text min-h-screen leading-normal font-sans antialiased">
+    <!--
+      Every visible section is an HTMX container. `data-hx-frag` names the
+      per-language fragment; app.js rewrites `hx-get` to the right locale
+      path before HTMX auto-processes the page.
+    -->
+    <main id="app" class="max-w-[780px] mx-auto px-5 pt-8 pb-20">
+      <div id="header-view"
+           data-hx-frag="header.html"
+           hx-get="./locales/en/header.html"
+           hx-trigger="load, langchange from:body"
+           hx-swap="innerHTML"></div>
+
+      <div id="legend-view"
+           data-hx-frag="legend.html"
+           hx-get="./locales/en/legend.html"
+           hx-trigger="load, langchange from:body"
+           hx-swap="innerHTML"></div>
+
+      <div id="progress-view"
+           data-hx-frag="progress.html"
+           hx-get="./locales/en/progress.html"
+           hx-trigger="load, langchange from:body"
+           hx-swap="innerHTML"></div>
+
+      <div id="questions"
+           data-hx-frag="questionnaire.html"
+           hx-get="./locales/en/questionnaire.html"
+           hx-trigger="load, langchange from:body"
+           hx-swap="innerHTML"></div>
+
+      <div id="actions-view"
+           data-hx-frag="actions.html"
+           hx-get="./locales/en/actions.html"
+           hx-trigger="load, langchange from:body"
+           hx-swap="innerHTML"></div>
+
+      <div id="attribution-view"
+           data-hx-frag="attribution.html"
+           hx-get="./locales/en/attribution.html"
+           hx-trigger="load, langchange from:body"
+           hx-swap="innerHTML"></div>
+    </main>
+
+    <section id="view" class="max-w-[780px] mx-auto px-5 pt-8 pb-20" aria-live="polite" hidden></section>
+
+    <script>window.PBQ_LANGS = <%~ JSON.stringify(it.langs.map((l) => l.code)) %>;</script>
+    <script src="./vendor/jquery.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./vendor/htmx.min.js"></script>
+  </body>
+</html>

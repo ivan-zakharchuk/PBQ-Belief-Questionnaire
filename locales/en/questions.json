@@ -1,0 +1,758 @@
+[
+  {
+    "id": 1,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "I am socially inept and socially undesirable in work or social situations."
+  },
+  {
+    "id": 2,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "Other people are potentially critical, indifferent, demeaning, or rejecting."
+  },
+  {
+    "id": 3,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "I cannot tolerate unpleasant feelings."
+  },
+  {
+    "id": 4,
+    "scale": "avoidant",
+    "borderline": true,
+    "text": "If people get close to me, they will discover the \"real\" me and reject me."
+  },
+  {
+    "id": 5,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "Being exposed as inferior or inadequate will be intolerable."
+  },
+  {
+    "id": 6,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "I should avoid unpleasant situations at all cost."
+  },
+  {
+    "id": 7,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "If I feel or think something unpleasant, I should try to wipe it out or distract myself (for example, think of something else, have a drink, take a drug, or watch television)."
+  },
+  {
+    "id": 8,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "I should avoid situations in which I attract attention, or be as inconspicuous as possible."
+  },
+  {
+    "id": 9,
+    "scale": "avoidant",
+    "borderline": true,
+    "text": "Unpleasant feelings will escalate and get out of control."
+  },
+  {
+    "id": 10,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "If others criticize me, they must be right."
+  },
+  {
+    "id": 11,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "It is better not to do anything than to try something that might fail."
+  },
+  {
+    "id": 12,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "If I don't think about a problem, I don't have to do anything about it."
+  },
+  {
+    "id": 13,
+    "scale": "avoidant",
+    "borderline": true,
+    "text": "Any signs of tension in a relationship indicate the relationship has gone bad; therefore, I should cut it off."
+  },
+  {
+    "id": 14,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "If I ignore a problem, it will go away."
+  },
+  {
+    "id": 15,
+    "scale": "dependent",
+    "borderline": true,
+    "text": "I am needy and weak."
+  },
+  {
+    "id": 16,
+    "scale": "dependent",
+    "borderline": true,
+    "text": "I need somebody around available at all times to help me to carry out what I need to do or in case something bad happens."
+  },
+  {
+    "id": 17,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "My helper can be nurturant, supportive, and confident -- if he or she wants to be."
+  },
+  {
+    "id": 18,
+    "scale": "dependent",
+    "borderline": true,
+    "text": "I am helpless when I'm left on my own."
+  },
+  {
+    "id": 19,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "I am basically alone -- unless I can attach myself to a stronger person."
+  },
+  {
+    "id": 20,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "The worst possible thing would be to be abandoned."
+  },
+  {
+    "id": 21,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "If I am not loved, I will always be unhappy."
+  },
+  {
+    "id": 22,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "I must do nothing to offend my supporter or helper."
+  },
+  {
+    "id": 23,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "I must be subservient in order to maintain his or her good will."
+  },
+  {
+    "id": 24,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "I must maintain access to him or her at all times."
+  },
+  {
+    "id": 25,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "I should cultivate as intimate a relationship as possible."
+  },
+  {
+    "id": 26,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "I can't make decisions on my own."
+  },
+  {
+    "id": 27,
+    "scale": "dependent",
+    "borderline": true,
+    "text": "I can't cope as other people can."
+  },
+  {
+    "id": 28,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "I need others to help me make decisions or tell me what to do."
+  },
+  {
+    "id": 29,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "I am self-sufficient, but I do need others to help me reach my goals."
+  },
+  {
+    "id": 30,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "The only way I can preserve my self-respect is by asserting myself indirectly; for example, by not carrying out instructions exactly."
+  },
+  {
+    "id": 31,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "I like to be attached to people but I am unwilling to pay the price of being dominated."
+  },
+  {
+    "id": 32,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Authority figures tend to be intrusive, demanding, interfering, and controlling."
+  },
+  {
+    "id": 33,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "I have to resist the domination of authorities but at the same time maintain their approval and acceptance."
+  },
+  {
+    "id": 34,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Being controlled or dominated by others is intolerable."
+  },
+  {
+    "id": 35,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "I have to do things my own way."
+  },
+  {
+    "id": 36,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Making deadlines, complying with demands, and conforming are direct blows to my pride and self-sufficiency."
+  },
+  {
+    "id": 37,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "If I follow the rules the way people expect, it will inhibit my freedom of action."
+  },
+  {
+    "id": 38,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "It is best not to express my anger directly but to show my displeasure by not conforming."
+  },
+  {
+    "id": 39,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "I know what's best for me and other people shouldn't tell me what to do."
+  },
+  {
+    "id": 40,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Rules are arbitrary and stifle me."
+  },
+  {
+    "id": 41,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Other people are often too demanding."
+  },
+  {
+    "id": 42,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "If I regard people as too bossy, I have a right to disregard their demands."
+  },
+  {
+    "id": 43,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "I am fully responsible for myself and others."
+  },
+  {
+    "id": 44,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "I have to depend on myself to see that things get done."
+  },
+  {
+    "id": 45,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Others tend to be too casual, often irresponsible, self-indulgent, or incompetent."
+  },
+  {
+    "id": 46,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "It is important to do a perfect job on everything."
+  },
+  {
+    "id": 47,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "I need order, systems, and rules in order to get the job done properly."
+  },
+  {
+    "id": 48,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "If I don't have systems, everything will fall apart."
+  },
+  {
+    "id": 49,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Any flaw or defect of performance may lead to a catastrophe."
+  },
+  {
+    "id": 50,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "It is necessary to stick to the highest standards at all times, or things will fall apart."
+  },
+  {
+    "id": 51,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "I need to be in complete control of my emotions."
+  },
+  {
+    "id": 52,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "People should do things my way."
+  },
+  {
+    "id": 53,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "If I don't perform at the highest level, I will fail."
+  },
+  {
+    "id": 54,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Flaws, defects, or mistakes are intolerable."
+  },
+  {
+    "id": 55,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Details are extremely important."
+  },
+  {
+    "id": 56,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "My way of doing things is generally the best way."
+  },
+  {
+    "id": 57,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "I have to look out for myself."
+  },
+  {
+    "id": 58,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Force or cunning is the best way to get things done."
+  },
+  {
+    "id": 59,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "We live in a jungle and the strong person is the one who survives."
+  },
+  {
+    "id": 60,
+    "scale": "antisocial",
+    "borderline": true,
+    "text": "People will get at me if I don't get them first."
+  },
+  {
+    "id": 61,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "It is not important to keep promises or honor debts."
+  },
+  {
+    "id": 62,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Lying and cheating are OK as long as you don't get caught."
+  },
+  {
+    "id": 63,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "I have been unfairly treated and am entitled to get my fair share by whatever means I can."
+  },
+  {
+    "id": 64,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Other people are weak and deserve to be taken."
+  },
+  {
+    "id": 65,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "If I don't push other people, I will get pushed around."
+  },
+  {
+    "id": 66,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "I should do whatever I can get away with."
+  },
+  {
+    "id": 67,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "What others think of me doesn't really matter."
+  },
+  {
+    "id": 68,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "If I want something, I should do whatever is necessary to get it."
+  },
+  {
+    "id": 69,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "I can get away with things so I don't need to worry about bad consequences."
+  },
+  {
+    "id": 70,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "If people can't take care of themselves, that's their problem"
+  },
+  {
+    "id": 71,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "I am a very special person."
+  },
+  {
+    "id": 72,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Since I am so superior, I am entitled to special treatment and privileges."
+  },
+  {
+    "id": 73,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "I don't have to be bound by the rules that apply to other people."
+  },
+  {
+    "id": 74,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "It is very important to get recognition, praise, and admiration."
+  },
+  {
+    "id": 75,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "If others don't respect my status, they should be punished."
+  },
+  {
+    "id": 76,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Other people should satisfy my needs."
+  },
+  {
+    "id": 77,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Other people should recognize how special I am."
+  },
+  {
+    "id": 78,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "It's intolerable if I'm not accorded my due respect or don't get what I'm entitled to."
+  },
+  {
+    "id": 79,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Other people don't deserve the admiration or riches they get."
+  },
+  {
+    "id": 80,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "People have no right to criticize me."
+  },
+  {
+    "id": 81,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "No one's needs should interfere with my own."
+  },
+  {
+    "id": 82,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Since I am so talented, people should go out of their way to promote my career."
+  },
+  {
+    "id": 83,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Only people as brilliant as I am understand me."
+  },
+  {
+    "id": 84,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "I have every reason to expect grand things."
+  },
+  {
+    "id": 85,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "I am an interesting, exciting person."
+  },
+  {
+    "id": 86,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "In order to be happy, I need other people to pay attention to me."
+  },
+  {
+    "id": 87,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Unless I entertain or impress people, I am nothing."
+  },
+  {
+    "id": 88,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "If I don't keep others engaged with me, they won't like me."
+  },
+  {
+    "id": 89,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "The way to get what I want is to dazzle or amuse people."
+  },
+  {
+    "id": 90,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "If people don't respond very positively to me, they are rotten."
+  },
+  {
+    "id": 91,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "It is awful if people ignore me."
+  },
+  {
+    "id": 92,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "I should be the center of attention."
+  },
+  {
+    "id": 93,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "I don't have to bother to think things through — I can go by my \"gut\" feeling."
+  },
+  {
+    "id": 94,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "If I entertain people, they will not notice my weaknesses."
+  },
+  {
+    "id": 95,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "I cannot tolerate boredom."
+  },
+  {
+    "id": 96,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "If I feel like doing something, I should go ahead and do it."
+  },
+  {
+    "id": 97,
+    "scale": "histrionic",
+    "borderline": true,
+    "text": "People will pay attention only if I act in extreme ways."
+  },
+  {
+    "id": 98,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Feelings and intuition are much more important than rational thinking and planning."
+  },
+  {
+    "id": 99,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "It doesn't matter what other people think of me."
+  },
+  {
+    "id": 100,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "It is important for me to be free and independent of others."
+  },
+  {
+    "id": 101,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "I enjoy doing things more by myself than with other people."
+  },
+  {
+    "id": 102,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "In many situations, I am better off to be left alone."
+  },
+  {
+    "id": 103,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "I am not influenced by others in what I decide to do."
+  },
+  {
+    "id": 104,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Intimate relations with other people are not important to me."
+  },
+  {
+    "id": 105,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "I set my own standards and goals for myself."
+  },
+  {
+    "id": 106,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "My privacy is much more important to me than closeness to people."
+  },
+  {
+    "id": 107,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "What other people think doesn't matter to me."
+  },
+  {
+    "id": 108,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "I can manage things on my own without anybody's help."
+  },
+  {
+    "id": 109,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "It's better to be alone than to feel \"stuck\" with other people."
+  },
+  {
+    "id": 110,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "I shouldn't confide in others."
+  },
+  {
+    "id": 111,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "I can use other people for my own purposes as long as I don't get involved."
+  },
+  {
+    "id": 112,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Relationships are messy and interfere with freedom."
+  },
+  {
+    "id": 113,
+    "scale": "paranoid",
+    "borderline": true,
+    "text": "I cannot trust other people."
+  },
+  {
+    "id": 114,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "Other people have hidden motives."
+  },
+  {
+    "id": 115,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "Others will try to use me or manipulate me if I don't watch out."
+  },
+  {
+    "id": 116,
+    "scale": "paranoid",
+    "borderline": true,
+    "text": "I have to be on guard at all times."
+  },
+  {
+    "id": 117,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "It isn't safe to confide in other people."
+  },
+  {
+    "id": 118,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "If people act friendly, they may be trying to use or exploit me."
+  },
+  {
+    "id": 119,
+    "scale": "paranoid",
+    "borderline": true,
+    "text": "People will take advantage of me if I give them the chance."
+  },
+  {
+    "id": 120,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "For the most part, other people are unfriendly."
+  },
+  {
+    "id": 121,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "Other people will deliberately try to demean me."
+  },
+  {
+    "id": 122,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "Oftentimes people deliberately want to annoy me."
+  },
+  {
+    "id": 123,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "I will be in serious trouble if I let other people think they can get away with mistreating me."
+  },
+  {
+    "id": 124,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "If other people find out things about me, they will use them against me."
+  },
+  {
+    "id": 125,
+    "scale": "paranoid",
+    "borderline": true,
+    "text": "People often say one thing and mean something else."
+  },
+  {
+    "id": 126,
+    "scale": "paranoid",
+    "borderline": true,
+    "text": "A person whom I am close to could be disloyal or unfaithful."
+  }
+]

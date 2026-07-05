@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@source "../templates/**/*.eta";
+@source "../app.js";
+
+@theme {
+  --color-bg: #f7f7fb;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f0f1f6;
+  --color-text: #1c1d21;
+  --color-text-muted: #63656b;
+  --color-border: #d9dbe3;
+  --color-accent: #3d5afe;
+  --color-accent-fg: #ffffff;
+  --color-focus: #ffbc00;
+  --color-danger: #d64545;
+
+  --radius-card: 10px;
+  --shadow-card:
+    0 1px 3px rgb(0 0 0 / 0.06),
+    0 4px 12px rgb(0 0 0 / 0.04);
+
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #12131a;
+    --color-surface: #1c1d26;
+    --color-surface-alt: #262835;
+    --color-text: #eceef4;
+    --color-text-muted: #9ea1ac;
+    --color-border: #333644;
+    --color-accent: #7c8cff;
+    --color-accent-fg: #0a0b12;
+    --shadow-card:
+      0 1px 3px rgb(0 0 0 / 0.4),
+      0 4px 12px rgb(0 0 0 / 0.3);
+  }
+}

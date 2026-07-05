@@ -1,0 +1,15 @@
+<header class="flex items-start gap-4 justify-between mb-6 max-[520px]:flex-col">
+  <div>
+    <h1 class="text-2xl font-bold m-0 mb-1.5"><%= it.strings.app.title %></h1>
+    <p class="m-0 text-text-muted text-[0.95rem]"><%= it.strings.app.subtitle %></p>
+  </div><% if (it.langs.length > 1) { %>
+  <label class="flex items-center gap-1.5 text-[0.85rem] text-text-muted"><%= it.strings.app.languageLabel %>
+    <select id="lang-select" aria-label="<%= it.strings.app.languageLabel %>"
+            class="px-2 py-1 rounded-md border border-border bg-surface text-text"
+            onchange="window.pbq.setLang(this.value)">
+<% it.langs.forEach((l) => { -%>
+      <option value="<%= l.code %>"<%~ l.code === it.lang ? ' selected' : '' %>><%= l.name %></option>
+<% }) -%>
+    </select>
+  </label><% } %>
+</header>

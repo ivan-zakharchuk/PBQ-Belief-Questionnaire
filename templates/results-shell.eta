@@ -1,0 +1,26 @@
+<section class="results bg-surface border border-border rounded-card p-5 shadow-card" data-scale-labels='<%~ it.scaleLabelsAttr %>' data-nodata="<%= it.strings.results.noData %>">
+  <h2 class="text-xl font-semibold mt-0 mb-2"><%= it.strings.results.title %></h2>
+  <p class="m-0 text-text-muted text-[0.9rem]"><%= it.strings.results.intro %></p>
+  <table class="w-full border-collapse mt-3 text-[0.92rem]">
+    <thead>
+      <tr>
+        <th class="text-left px-1.5 py-2 border-b border-border font-semibold text-text-muted text-[0.8rem] uppercase tracking-wider"><%= it.strings.results.headers.scale %></th>
+        <th class="text-left px-1.5 py-2 border-b border-border font-semibold text-text-muted text-[0.8rem] uppercase tracking-wider"><%= it.strings.results.headers.rawScore %></th>
+        <th class="text-left px-1.5 py-2 border-b border-border font-semibold text-text-muted text-[0.8rem] uppercase tracking-wider"><%= it.strings.results.headers.zScore %></th>
+        <th class="text-left px-1.5 py-2 border-b border-border font-semibold text-text-muted text-[0.8rem] uppercase tracking-wider"><%= it.strings.results.headers.zRefPd %></th>
+        <th class="text-left px-1.5 py-2 border-b border-border font-semibold text-text-muted text-[0.8rem] uppercase tracking-wider"><%= it.strings.results.headers.zRefNoPd %></th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <div class="mt-4 px-3.5 py-3 bg-surface-alt rounded-lg text-text-muted text-[0.85rem]"><%= it.strings.results.disclaimer %></div>
+  <div class="flex gap-2.5 mt-6 flex-wrap">
+    <button type="button" class="restart-btn px-[18px] py-2.5 rounded-lg border border-border bg-surface text-text cursor-pointer transition hover:bg-surface-alt disabled:opacity-55 disabled:cursor-not-allowed"
+            hx-get="./locales/<%= it.lang %>/questionnaire.html"
+            hx-target="#questions"
+            hx-swap="innerHTML"
+            hx-on:click="window.pbq.exitResults()"><%= it.strings.buttons.restart %></button>
+    <button type="button" class="download-btn px-[18px] py-2.5 rounded-lg border border-border bg-surface text-text cursor-pointer transition hover:bg-surface-alt disabled:opacity-55 disabled:cursor-not-allowed"
+            onclick="window.pbq.download()"><%= it.strings.buttons.downloadJson %></button>
+  </div>
+</section>
