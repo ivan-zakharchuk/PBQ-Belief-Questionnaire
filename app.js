@@ -71,6 +71,22 @@
       updateProgress();
       hideValidation();
     })
+    .on('keydown', '.question input[type=radio]', function (e) {
+      if (['ArrowLeft', 'ArrowRight'].includes(e.key)) {
+        e.preventDefault();
+        moveRadioSelection(this, e.key === 'ArrowRight' ? 1 : -1);
+        return;
+      }
+      if (['ArrowUp', 'ArrowDown'].includes(e.key)) {
+        e.preventDefault();
+        moveQuestionSelection(this, e.key === 'ArrowDown' ? 1 : -1);
+        return;
+      }
+      if (e.key !== 'Enter') return;
+      e.preventDefault();
+      this.checked = true;
+      this.dispatchEvent(new Event('change', { bubbles: true }));
+    })
     .on('htmx:after:swap', function (e) {
       // In HTMX 4 `htmx:after:swap` fires on the sourceElement (the trigger).
       // The actual swap destination lives on event.detail.ctx.target.
@@ -158,6 +174,33 @@
     document.querySelectorAll('.scroll-top-button').forEach((button) => {
       button.hidden = !show;
     });
+  }
+
+  function moveRadioSelection(input, direction) {
+    const q = input.closest('.question');
+    const radios = [...q.querySelectorAll('input[type=radio]')];
+    const index = radios.indexOf(input);
+    const next = radios[index + direction];
+    if (!next) return;
+    next.focus();
+    next.checked = true;
+    next.dispatchEvent(new Event('change', { bubbles: true }));
+  }
+
+  function moveQuestionSelection(input, direction) {
+    const q = input.closest('.question');
+    const questions = getQuestions();
+    const questionIndex = questions.indexOf(q);
+    const nextQuestion = questions[questionIndex + direction];
+    if (!nextQuestion) return;
+
+    const radios = [...q.querySelectorAll('input[type=radio]')];
+    const nextRadios = [...nextQuestion.querySelectorAll('input[type=radio]')];
+    const optionIndex = radios.indexOf(input);
+    const next = nextRadios[optionIndex];
+    if (!next) return;
+
+    next.focus();
   }
 
   // ---- Public API used by hx-on:* attributes in the pre-built fragments ----

@@ -1,7 +1,9 @@
-<label class="group flex flex-col items-center justify-center gap-1 py-2 px-1 border border-border rounded-card bg-surface text-center<%~ it.readonly ? ' cursor-default' : ' cursor-pointer transition active:scale-[0.98] hover:bg-surface-alt has-[input:checked]:outline-2 has-[input:checked]:outline-offset-[-2px] has-[input:checked]:outline-accent has-[input:checked]:text-accent' %>" title="<%= it.rating.label %>">
-  <input class="peer absolute opacity-0 pointer-events-none hidden" type="radio" name="<%= it.name %>" value="<%= it.rating.value %>" aria-label="<%= it.rating.label %>"<%~ it.readonly ? ' disabled' : '' %>>
-  <span class="flex flex-col items-center gap-0.5 leading-tight<%~ !it.readonly ? ' peer-focus-visible:outline-2 peer-focus-visible:outline-focus peer-focus-visible:outline-offset-[3px] peer-focus-visible:rounded-md' : '' %>">
-    <span class="font-bold text-2xl"><%= it.rating.value %></span>
+<label class="group flex flex-col items-center justify-center gap-1 py-2 px-1 bg-surface text-center<%~ it.readonly ? ' border border-border rounded-card cursor-default' : ' cursor-pointer transition active:scale-[0.98] has-[input:checked]:text-accent' %>" title="<%= it.rating.label %>">
+  <input class="peer sr-only hidden" type="radio" name="<%= it.name %>" value="<%= it.rating.value %>" aria-label="<%= it.rating.label %>"<%~ it.readonly ? ' disabled' : '' %>>
+  <span class="flex flex-col items-center gap-0.5 leading-tight">
+    <span class="font-bold text-2xl<%~ it.readonly ? '' : ' inline-flex items-center justify-center w-12 h-12 rounded-full border-2 border-transparent group-hover:border-border group-has-[input:focus-visible]:border-focus group-has-[input:checked]:border-accent' %>"><%= it.rating.value %></span>
+<% if (it.readonly) { -%>
     <span class="text-base text-text-muted leading-tight<%~ !it.readonly ? ' group-has-[input:checked]:text-accent' : '' %> max-[520px]:hidden"><%= it.rating.short %></span>
+<% } -%>
   </span>
 </label>

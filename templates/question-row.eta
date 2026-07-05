@@ -1,7 +1,7 @@
-<div class="<%~ it.readonly ? 'question-example' : 'question' %> grid gap-3 xl:grid-cols-[auto_minmax(0,1fr)_minmax(0,1fr)] xl:items-center xl:gap-5 bg-surface border-t border-border px-1 py-4 shadow-card<%~ it.readonly ? '' : ' has-[input:checked]:border-accent' %>" data-id="<%= it.id %>"<%~ it.scale ? ` data-scale="${it.scale}"` : '' %><%~ it.borderline ? ' data-borderline="1"' : '' %>>
-  <div class="text-lg text-text font-normal xl:self-center"><%= it.id %>.</div>
+<div class="<%~ it.readonly ? 'question-example' : 'question' %> <%~ include('table-row-class') %> bg-surface border-t border-border px-1<%~ it.readonly ? ' py-2' : ' py-4' %> shadow-card" data-id="<%= it.id %>"<%~ it.scale ? ` data-scale="${it.scale}"` : '' %><%~ it.borderline ? ' data-borderline="1"' : '' %>>
+  <div class="text-lg text-text font-normal xl:self-center"><%~ it.hideNumber ? '' : `${it.id}.` %></div>
   <p class="m-0 text-xl min-w-0"><%= it.text %></p>
-  <div class="grid grid-cols-5 gap-1.5 min-w-0" role="radiogroup" aria-label="<%= it.ariaLabel %>">
+  <div class="col-span-2 grid grid-cols-5 gap-1.5 min-w-0 xl:col-span-1" role="radiogroup" aria-label="<%= it.ariaLabel %>">
 <% it.ratings.forEach((r) => { -%>
     <%~ include("rating-option", { rating: r, name: it.name, readonly: it.readonly }) %>
 <% }) -%>
