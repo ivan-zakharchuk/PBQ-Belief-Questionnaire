@@ -1,5 +1,5 @@
 <label class="group flex flex-col items-center justify-center gap-1 py-2 px-1 bg-surface text-center<%~ it.readonly ? ' border border-border rounded-card cursor-default' : ' cursor-pointer transition active:scale-[0.98] has-[input:checked]:text-accent' %>" title="<%= it.rating.label %>">
-  <input class="peer sr-only hidden" type="radio" name="<%= it.name %>" value="<%= it.rating.value %>" aria-label="<%= it.rating.label %>"<%~ it.readonly ? ' disabled' : '' %>>
+  <input class="peer sr-only" type="radio" name="<%= it.name %>" value="<%= it.rating.value %>" aria-label="<%= it.rating.label %>"<%~ it.readonly ? ' disabled' : '' %>>
   <span class="flex flex-col items-center gap-0.5 leading-tight">
     <span class="font-bold text-2xl<%~ it.readonly ? '' : ' inline-flex items-center justify-center w-12 h-12 rounded-full border-2 border-transparent group-hover:border-border group-has-[input:focus-visible]:border-focus group-has-[input:checked]:border-accent' %>"><%= it.rating.value %></span>
 <% if (it.readonly) { -%>

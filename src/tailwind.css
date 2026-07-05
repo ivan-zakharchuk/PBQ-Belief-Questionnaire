@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @source "../templates/**/*.eta";
-@source "../app.js";
+@source "../*.js";
 
 @theme {
   --color-bg: #f3f1ec;

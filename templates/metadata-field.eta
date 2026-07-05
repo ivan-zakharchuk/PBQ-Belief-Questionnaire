@@ -1,0 +1,8 @@
+<label class="flex items-end gap-1<%~ it.className ? ` ${it.className}` : '' %>">
+  <span><%= it.label %><%~ it.suffix || '' %></span>
+  <input class="metadata-input border-0 border-b-2 border-border bg-transparent flex-1 min-w-24 h-8 px-1 text-xl font-normal outline-none focus:border-focus"
+         type="<%= it.type || 'text' %>"
+         name="<%= it.name %>"
+         data-meta-field="<%= it.name %>"
+         autocomplete="<%= it.autocomplete || 'off' %>" />
+</label>

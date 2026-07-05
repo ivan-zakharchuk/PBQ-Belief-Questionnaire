@@ -17,10 +17,17 @@ await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 
 // Static passthrough (no CSS here — Tailwind builds style.css below).
-await cp(path.join(root, 'app.js'), path.join(dist, 'app.js'));
-console.log('copied  app.js  →  dist/app.js');
-await cp(path.join(root, 'query-answers.js'), path.join(dist, 'query-answers.js'));
-console.log('copied  query-answers.js  →  dist/query-answers.js');
+for (const script of [
+  'storage.js',
+  'metadata.js',
+  'query-answers.js',
+  'radio-nav.js',
+  'results.js',
+  'app.js'
+]) {
+  await cp(path.join(root, script), path.join(dist, script));
+  console.log(`copied  ${script}  →  dist/${script}`);
+}
 
 // Locales must render before Tailwind so @source can see the class names
 // baked into dist/locales/*.html — but our @source directives already point
