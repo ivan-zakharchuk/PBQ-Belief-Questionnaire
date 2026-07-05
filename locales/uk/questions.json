@@ -1,0 +1,758 @@
+[
+  {
+    "id": 1,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "Я соціально незграбний і соціально небажаний у робочих або суспільних ситуаціях."
+  },
+  {
+    "id": 2,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "Інші люди потенційно критичні, байдужі, принизливі або відштовхуючі."
+  },
+  {
+    "id": 3,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "Я не можу терпіти неприємні почуття."
+  },
+  {
+    "id": 4,
+    "scale": "avoidant",
+    "borderline": true,
+    "text": "Якщо люди підійдуть до мене близько, вони дізнаються, який я \"насправді\", і відкинуть мене."
+  },
+  {
+    "id": 5,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "Бути викритим як неповноцінний або неадекватний буде нестерпно."
+  },
+  {
+    "id": 6,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "Я повинен уникати неприємних ситуацій будь-якою ціною."
+  },
+  {
+    "id": 7,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "Якщо я відчуваю або думаю про щось неприємне, я повинен спробувати стерти це або відволіктися (наприклад, подумати про щось інше, випити, прийняти ліки чи подивитися телевізор)."
+  },
+  {
+    "id": 8,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "Мені слід уникати ситуацій, в яких я привертаю увагу, або бути якомога непомітнішим."
+  },
+  {
+    "id": 9,
+    "scale": "avoidant",
+    "borderline": true,
+    "text": "Неприємні почуття будуть посилюватися і вийдуть з-під контролю."
+  },
+  {
+    "id": 10,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "Якщо інші критикують мене, вони, мабуть, мають рацію."
+  },
+  {
+    "id": 11,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "Краще нічого не робити, ніж пробувати те, що може закінчитися невдачею."
+  },
+  {
+    "id": 12,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "Якщо я не думаю про проблему, мені не потрібно нічого з нею робити."
+  },
+  {
+    "id": 13,
+    "scale": "avoidant",
+    "borderline": true,
+    "text": "Будь-які ознаки напруги в стосунках вказують на те, що стосунки зіпсувалися; тому я повинен їх розірвати."
+  },
+  {
+    "id": 14,
+    "scale": "avoidant",
+    "borderline": false,
+    "text": "Якщо я буду ігнорувати проблему, вона зникне сама собою."
+  },
+  {
+    "id": 15,
+    "scale": "dependent",
+    "borderline": true,
+    "text": "Я потребуючий і слабкий."
+  },
+  {
+    "id": 16,
+    "scale": "dependent",
+    "borderline": true,
+    "text": "Мені потрібно, щоб поруч завжди був хтось, хто допоможе мені зробити те, що потрібно, або на випадок, якщо станеться щось погане."
+  },
+  {
+    "id": 17,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "Мій помічник може бути турботливим, підтримуючим і впевненим — якщо він або вона цього захоче."
+  },
+  {
+    "id": 18,
+    "scale": "dependent",
+    "borderline": true,
+    "text": "Я безпорадний, коли залишаюся сам."
+  },
+  {
+    "id": 19,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "Я по суті самотній — якщо тільки не зможу прихилитися до сильнішої людини."
+  },
+  {
+    "id": 20,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "Найгірше, що могло б статися, — це бути покинутим."
+  },
+  {
+    "id": 21,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "Якщо мене не любитимуть, я завжди буду нещасним."
+  },
+  {
+    "id": 22,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "Я не повинен робити нічого, що могло б образити мого покровителя чи помічника."
+  },
+  {
+    "id": 23,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "Я повинен бути підлеглим, щоб зберегти його або її прихильність."
+  },
+  {
+    "id": 24,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "Я повинен мати доступ до нього або неї в будь-який час."
+  },
+  {
+    "id": 25,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "Я повинен розвивати якомога ближчі стосунки."
+  },
+  {
+    "id": 26,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "Я не можу приймати рішення самостійно."
+  },
+  {
+    "id": 27,
+    "scale": "dependent",
+    "borderline": true,
+    "text": "Я не можу справлятися так, як інші люди."
+  },
+  {
+    "id": 28,
+    "scale": "dependent",
+    "borderline": false,
+    "text": "Мені потрібні інші, щоб допомагати мені приймати рішення або говорити, що робити."
+  },
+  {
+    "id": 29,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Я самодостатній, але мені потрібні інші, щоб допомогти мені досягти моїх цілей."
+  },
+  {
+    "id": 30,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Єдиний спосіб зберегти самоповагу — це самостверджуватися опосередковано; наприклад, не виконуючи вказівки точно."
+  },
+  {
+    "id": 31,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Мені подобається бути прив'язаним до людей, але я не готовий платити за це ціною підкорення."
+  },
+  {
+    "id": 32,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Авторитетні фігури схильні бути нав'язливими, вимогливими, такими, що втручаються і контролюють."
+  },
+  {
+    "id": 33,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Я повинен чинити опір домінуванню авторитетів, але водночас зберігати їхнє схвалення та прийняття."
+  },
+  {
+    "id": 34,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Коли мене контролюють або домінують наді мною інші — це нестерпно."
+  },
+  {
+    "id": 35,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Я повинен робити все по-своєму."
+  },
+  {
+    "id": 36,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Дотримання дедлайнів, підпорядкування вимогам та конформізм є прямими ударами по моїй гордості та самодостатності."
+  },
+  {
+    "id": 37,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Якщо я буду дотримуватися правил так, як від мене очікують, це обмежить мою свободу дій."
+  },
+  {
+    "id": 38,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Найкраще не виражати свій гнів прямо, а демонструвати своє невдоволення через непідкорення."
+  },
+  {
+    "id": 39,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Я знаю, що для мене найкраще, і інші люди не повинні говорити мені, що робити."
+  },
+  {
+    "id": 40,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Правила є довільними і обмежують мене."
+  },
+  {
+    "id": 41,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Інші люди часто занадто вимогливі."
+  },
+  {
+    "id": 42,
+    "scale": "passive_aggressive",
+    "borderline": false,
+    "text": "Якщо я вважаю людей занадто владними, я маю право ігнорувати їхні вимоги."
+  },
+  {
+    "id": 43,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Я повністю відповідальний за себе та інших."
+  },
+  {
+    "id": 44,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Я мушу покладатися на себе, щоб переконатися, що справи виконуються."
+  },
+  {
+    "id": 45,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Інші схильні бути занадто легковажними, часто безвідповідальними, самовпевненими або некомпетентними."
+  },
+  {
+    "id": 46,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Важливо робити будь-яку роботу ідеально."
+  },
+  {
+    "id": 47,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Мені потрібні порядок, системи та правила, щоб виконувати роботу належним чином."
+  },
+  {
+    "id": 48,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Якщо у мене не буде системності, все розвалиться."
+  },
+  {
+    "id": 49,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Будь-яка вада або недолік у виконанні роботи може призвести до катастрофи."
+  },
+  {
+    "id": 50,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Необхідно постійно дотримуватися найвищих стандартів, інакше все розвалиться."
+  },
+  {
+    "id": 51,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Мені потрібно повністю контролювати свої емоції."
+  },
+  {
+    "id": 52,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Люди повинні робити все по-моєму."
+  },
+  {
+    "id": 53,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Якщо я не виступатиму на найвищому рівні, я зазнаю невдачі."
+  },
+  {
+    "id": 54,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Вади, недоліки або помилки є нестерпними."
+  },
+  {
+    "id": 55,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Деталі надзвичайно важливі."
+  },
+  {
+    "id": 56,
+    "scale": "obsessive_compulsive",
+    "borderline": false,
+    "text": "Мій спосіб ведення справ, як правило, найкращий."
+  },
+  {
+    "id": 57,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Я мушу дбати про себе."
+  },
+  {
+    "id": 58,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Сила або хитрість — найкращий спосіб досягти мети."
+  },
+  {
+    "id": 59,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Ми живемо в джунглях, і виживає найсильніший."
+  },
+  {
+    "id": 60,
+    "scale": "antisocial",
+    "borderline": true,
+    "text": "Люди дістануть мене, якщо я не дістану їх першим."
+  },
+  {
+    "id": 61,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Неважливо стримувати обіцянки чи повертати борги."
+  },
+  {
+    "id": 62,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Брехня та шахрайство — це нормально, поки тебе не спіймали."
+  },
+  {
+    "id": 63,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Зі мною обійшлися несправедливо, і я маю право отримати свою законну частку будь-якими можливими способами."
+  },
+  {
+    "id": 64,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Інші люди слабкі і заслуговують на те, щоб ними скористалися."
+  },
+  {
+    "id": 65,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Якщо я не буду тиснути на інших людей, вони будуть тиснути на мене."
+  },
+  {
+    "id": 66,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Я повинен робити все, що може зійти мені з рук."
+  },
+  {
+    "id": 67,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Те, що інші думають про мене, насправді не має значення."
+  },
+  {
+    "id": 68,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Якщо я чогось хочу, я повинен зробити все необхідне, щоб це отримати."
+  },
+  {
+    "id": 69,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Мені все сходить з рук, тому мені не потрібно турбуватися про погані наслідки."
+  },
+  {
+    "id": 70,
+    "scale": "antisocial",
+    "borderline": false,
+    "text": "Якщо люди не можуть подбати про себе, це їхня проблема."
+  },
+  {
+    "id": 71,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Я дуже особлива людина."
+  },
+  {
+    "id": 72,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Оскільки я настільки вищий за інших, я маю право на особливе ставлення та привілеї."
+  },
+  {
+    "id": 73,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Я не зобов'язаний бути зв'язаним правилами, які застосовуються до інших людей."
+  },
+  {
+    "id": 74,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Дуже важливо отримувати визнання, похвалу та захоплення."
+  },
+  {
+    "id": 75,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Якщо інші не поважають мій статус, вони повинні бути покарані."
+  },
+  {
+    "id": 76,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Інші люди повинні задовольняти мої потреби."
+  },
+  {
+    "id": 77,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Інші люди повинні визнавати, наскільки я особливий."
+  },
+  {
+    "id": 78,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Це нестерпно, якщо мені не виявляють належної поваги або я не отримую того, на що маю право."
+  },
+  {
+    "id": 79,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Інші люди не заслуговують на те захоплення чи багатство, які вони отримують."
+  },
+  {
+    "id": 80,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Люди не мають права критикувати мене."
+  },
+  {
+    "id": 81,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Нічиї потреби не повинні заважати моїм власним."
+  },
+  {
+    "id": 82,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Оскільки я такий талановитий, люди повинні зі шкіри лізти, щоб сприяти моїй кар'єрі."
+  },
+  {
+    "id": 83,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Тільки такі геніальні люди, як я, розуміють мене."
+  },
+  {
+    "id": 84,
+    "scale": "narcissistic",
+    "borderline": false,
+    "text": "Я маю всі підстави очікувати великих звершень."
+  },
+  {
+    "id": 85,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Я цікава, захоплююча людина."
+  },
+  {
+    "id": 86,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Щоб бути щасливим, мені потрібно, щоб інші люди звертали на мене увагу."
+  },
+  {
+    "id": 87,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Якщо я не розважаю чи не вражаю людей, я ніщо."
+  },
+  {
+    "id": 88,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Якщо я не утримуватиму увагу інших на собі, я їм не подобатимуся."
+  },
+  {
+    "id": 89,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Спосіб отримати те, що я хочу, — це засліпити або розважити людей."
+  },
+  {
+    "id": 90,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Якщо люди не реагують на мене дуже позитивно, вони нікчеми."
+  },
+  {
+    "id": 91,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Це жахливо, якщо люди ігнорують мене."
+  },
+  {
+    "id": 92,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Я повинен бути в центрі уваги."
+  },
+  {
+    "id": 93,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Мені не потрібно турбуватися про те, щоб продумувати речі — я можу керуватися своїм внутрішнім чуттям."
+  },
+  {
+    "id": 94,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Якщо я розважатиму людей, вони не помітять моїх слабкостей."
+  },
+  {
+    "id": 95,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Я не переношу нудьги."
+  },
+  {
+    "id": 96,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Якщо мені хочеться щось зробити, я повинен просто піти і зробити це."
+  },
+  {
+    "id": 97,
+    "scale": "histrionic",
+    "borderline": true,
+    "text": "Люди звернуть увагу лише тоді, як я діятиму екстремально."
+  },
+  {
+    "id": 98,
+    "scale": "histrionic",
+    "borderline": false,
+    "text": "Почуття та інтуїція набагато важливіші за раціональне мислення та планування."
+  },
+  {
+    "id": 99,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Не має значення, що інші люди думають про мене."
+  },
+  {
+    "id": 100,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Для мене важливо бути вільним і незалежним від інших."
+  },
+  {
+    "id": 101,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Мені більше подобається робити щось самому, ніж з іншими людьми."
+  },
+  {
+    "id": 102,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "У багатьох ситуаціях мені краще, коли мене дадуть спокій."
+  },
+  {
+    "id": 103,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Інші не впливають на те, що я вирішую робити."
+  },
+  {
+    "id": 104,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Близькі стосунки з іншими людьми для мене не важливі."
+  },
+  {
+    "id": 105,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Я сам встановлюю свої стандарти та цілі для себе."
+  },
+  {
+    "id": 106,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Моя приватність набагато важливіша для мене, ніж близькість до людей."
+  },
+  {
+    "id": 107,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Те, що думають інші люди, для мене не має значення."
+  },
+  {
+    "id": 108,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Я можу впоратися зі справами самостійно без нічиєї допомоги."
+  },
+  {
+    "id": 109,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Краще бути одному, ніж відчувати себе \"застряглим\" з іншими людьми."
+  },
+  {
+    "id": 110,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Я не повинен довірятися іншим."
+  },
+  {
+    "id": 111,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Я можу використовувати інших людей у своїх цілях, поки сам не втягуюся у стосунки."
+  },
+  {
+    "id": 112,
+    "scale": "schizoid",
+    "borderline": false,
+    "text": "Стосунки — це заплутана річ, яка заважає свободі."
+  },
+  {
+    "id": 113,
+    "scale": "paranoid",
+    "borderline": true,
+    "text": "Я не можу довіряти іншим людям."
+  },
+  {
+    "id": 114,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "Інші люди мають приховані мотиви."
+  },
+  {
+    "id": 115,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "Інші спробують використати мене або маніпулювати мною, якщо я не буду обачним."
+  },
+  {
+    "id": 116,
+    "scale": "paranoid",
+    "borderline": true,
+    "text": "Я повинен бути начеку в будь-який час."
+  },
+  {
+    "id": 117,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "Небезпечно довірятися іншим людям."
+  },
+  {
+    "id": 118,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "Якщо люди поводяться дружелюбно, можливо, вони намагаються використати мене або визискувати."
+  },
+  {
+    "id": 119,
+    "scale": "paranoid",
+    "borderline": true,
+    "text": "Люди скористаються мною, якщо я дам їм таку можливість."
+  },
+  {
+    "id": 120,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "Здебільшого інші люди недружелюбні."
+  },
+  {
+    "id": 121,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "Інші люди навмисно намагатимуться принизити мене."
+  },
+  {
+    "id": 122,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "Часто люди навмисно хочуть мене роздратувати."
+  },
+  {
+    "id": 123,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "У мене будуть серйозні неприємності, якщо я дозволю іншим людям думати, що їм може зійти з рук погане ставлення до мене."
+  },
+  {
+    "id": 124,
+    "scale": "paranoid",
+    "borderline": false,
+    "text": "Якщо інші люди дізнаються щось про мене, вони використають це проти мене."
+  },
+  {
+    "id": 125,
+    "scale": "paranoid",
+    "borderline": true,
+    "text": "Люди часто говорять одне, а мають на увазі інше."
+  },
+  {
+    "id": 126,
+    "scale": "paranoid",
+    "borderline": true,
+    "text": "Людина, з якою я близький, може виявитися нелояльною або невірною."
+  }
+]
