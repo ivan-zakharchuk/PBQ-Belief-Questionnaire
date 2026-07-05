@@ -1,4 +1,4 @@
-/* global jQuery, htmx */
+/* global jQuery, htmx, pbqQueryAnswers */
 // The runtime is deliberately thin: HTMX loads every visible fragment,
 // so app.js only handles what HTMX can't express — client state, scoring,
 // storage sync, and a couple of imperative UI toggles.
@@ -23,17 +23,17 @@
     borderline:           { mean: 15.8, sd: 10.5, refPd: 0.77, refNoPd: -0.65 }
   };
 
-  const state = {
-    lang: readLang(),
-    answers: readAnswers()
-  };
-
   // Supported locales are injected by the build (see templates/index.eta).
   // Anything not in this list — including a browser locale we don't ship
   // yet — falls back to 'en'.
   const SUPPORTED = Array.isArray(window.PBQ_LANGS) && window.PBQ_LANGS.length
     ? window.PBQ_LANGS
     : ['en'];
+
+  const state = {
+    lang: readLang(),
+    answers: readAnswers()
+  };
 
   function readLang() {
     const stored = localStorage.getItem('pbq.lang');
@@ -67,6 +67,7 @@
       const q = this.closest('.question');
       state.answers[Number(q.dataset.id)] = Number(this.value);
       saveAnswers();
+      writeAnswersToQuery();
       updateProgress();
       hideValidation();
     })
@@ -76,6 +77,7 @@
       const target = e.originalEvent?.detail?.ctx?.target || e.detail?.ctx?.target;
       const id = target && target.id;
       if (id === 'questions') {
+        restoreAnswersFromQuery();
         restoreAnswers();
         updateProgress();
         if (window.pbq.__pendingExit) {
@@ -103,6 +105,23 @@
       );
       if (inp) inp.checked = true;
     }
+  }
+
+  function restoreAnswersFromQuery() {
+    const answers = pbqQueryAnswers.read(getQuestions());
+    if (!answers) return;
+
+    state.answers = answers;
+    saveAnswers();
+  }
+
+  function writeAnswersToQuery() {
+    const questions = getQuestions();
+    pbqQueryAnswers.write(state.answers, questions);
+  }
+
+  function getQuestions() {
+    return [...document.querySelectorAll('.question')];
   }
 
   function updateProgress() {
@@ -243,6 +262,7 @@
     clearAnswers() {
       state.answers = {};
       localStorage.removeItem('pbq.answers');
+      writeAnswersToQuery();
       hideValidation();
     },
 

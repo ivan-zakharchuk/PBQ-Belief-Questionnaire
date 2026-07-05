@@ -19,6 +19,8 @@ await mkdir(dist, { recursive: true });
 // Static passthrough (no CSS here — Tailwind builds style.css below).
 await cp(path.join(root, 'app.js'), path.join(dist, 'app.js'));
 console.log('copied  app.js  →  dist/app.js');
+await cp(path.join(root, 'query-answers.js'), path.join(dist, 'query-answers.js'));
+console.log('copied  query-answers.js  →  dist/query-answers.js');
 
 // Locales must render before Tailwind so @source can see the class names
 // baked into dist/locales/*.html — but our @source directives already point
